@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Baudm0n Labs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <a href="../index.html">
+      <span class="sigil">◉</span>
+      <span class="name">BAUDM0N</span>
+      </a>
+    </div>
+    <nav>
+      <a href="phase-one.html">Phase I</a>
+      <a href="../logs/dev.html">Logs</a>
+      <a href="../about.html">About Us</a>
+      
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <h1>Phase I</h1>
+    </section>
+
+    <section id="mission" class="panel">
+      <h2>[P1] "To Infinity..." </h2>
+      <p>
+        Must run, drive, and most importantly survive Gambler 500.
+      </p>
+    </section>
+
+    <section class="panel">  
+      <p>
+      The Major Subsystems:
+      </p>
+      <ul class="questions">
+        <li>PROP (engine control) </li>
+        <li>HMI (dash + instruments) </li>
+        <li>STRUCT (chassis + cockpit) </li>
+        <li>LAND (suspension + frame) </li>
+        <li>PWR (electrical + thermal) </li>
+        <li>NAV (data + cameras) </li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>[P1] BUILD PLAN</h2>
+      <ul class="questions">
+        <section class="panel">
+        <h3 class="highlight">PROP</h3>
+          <li>Bench test MS ECU</li>
+          <li>Determine mounting pos</li>
+          <li>R&R nervous system</li>
+          <li>Crank trigger & sensor</li>
+          <li>Smart ignition coils</li>
+          <li>Wideband O2 sensor</li>
+        </section>
+        <section class="panel">
+        <h3 class="highlight">HMI</h3>
+          <li>Custom Dash</li>
+          <li>organized wiring, ECU mounting, cluster/media screen</li>
+          <li>Master power switch -> remove old ignition cylinder</li>
+          <li>Push button start connected to master + ECU </li>
+          <li>Amp + Sub on separate circuits than the ECU</li>
+          <li>Camera logs via NAV controller </li>
+        </section>
+        
+        <section class="panel">  
+        <h3 class="highlight">STRUCT</h3>
+          <li>Bucket seats + harnesses</li>
+          <li>Cage tie-ins</li>
+          <li>ECU enclosure</li>
+          <li>Dash structure</li>
+          <li>Firewall pass-through</li>
+        </section>
+        
+        <section class="panel">  
+        <h3 class="highlight">LAND</h3>
+          <li>Identify weak chassis points</li>
+          <li>Participation Trophy Truck for [P2]</li>
+        </section>
+        
+        <section class="panel">
+        <h3 class="highlight">PWR</h3>
+          <li>Two neighboring circuits</li>
+          <li>ECU power domain</li>
+          <li>Cab power domain</li>
+          <li>Grounding architecture</li>
+          <li>Water/dust sealing</li> 
+        </section>
+        
+        <section class="panel">  
+        <h3 class="highlight">NAV</h3>
+          <li>Multi-channel camera controller</li>
+          <li>ECU logging</li>
+          <li>Persistent memory</li>
+          <li>GPS</li>
+          <li>Future telemetry ideas</li>
+        </section>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Baudm0n Labs · Systems Archive</p>
+  </footer>
+   <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
