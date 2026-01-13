@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Baudm0n Labs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <a href="index.html">
+      <span class="sigil">◉</span>
+      <span class="name">BAUDM0N</span>
+      </a>
+    </div>
+    <nav>
+      <a href="phases/phase-one.html">Phase I</a>
+      <a href="logs/dev.html">Logs</a>
+      <a href="about.html">About Us</a>
+      
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <h1>Systems in Development</h1>
+      <p class="subtitle">until u die</p>
+    </section>
+
+    <section id="mission" class="panel">
+      <h2>Mission</h2>
+      <p>
+        Baudm0n is an applied systems lab.  
+        This site documents the construction of cyber-physical systems, beginning with:
+      </p>
+      <p class="highlight">
+        Buzz — a 1996 Ford Ranger undergoing nervous-system replacement.
+      </p>
+    </section>
+
+    <section id="buzz" class="panel">
+      <h2>Active Program</h2>
+      <h3>Buzz the Space Ranger</h3>
+
+      <ul class="spec">
+        <li>Status: Phase One – To Infinity</li>
+        <li>Objective: Nervous system commissioning</li>
+        <li>Core system: MegaSquirt MS3 + MS3X</li>
+      </ul>
+
+      <div class="links">
+        <a href="phases/phase-one.html">→ Phase One Overview</a>
+        <a href="logs/">→ Mission Logs</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Program Questions</h2>
+      <ul class="questions">
+        <li>Can Buzz get a flight computer?</li>
+        <li>Can Buzz speak?</li>
+        <li>Can Buzz survive?</li>
+        <li>Can Buzz land?</li>
+        <li>Can Buzz stay alive?</li>
+        <li>Can Buzz remember?</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Baudm0n Labs · Systems Archive</p>
+  </footer>
+   <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

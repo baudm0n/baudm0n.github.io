@@ -1,0 +1,150 @@
+/* ========== CORE ========== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+  background: #0b0e11;
+  color: #e6e6e6;
+  line-height: 1.6;
+}
+
+a {
+  color: #7dd3fc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* ========== HEADER ========== */
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #1f2933;
+  background: #05070a;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.sigil {
+  color: #38bdf8;
+  font-size: 1.4rem;
+}
+
+.name {
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+nav a {
+  margin-left: 1.2rem;
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+/* ========== HERO ========== */
+
+.hero {
+  margin: 3rem 0 4rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  letter-spacing: 0.08em;
+}
+
+.subtitle {
+  margin-top: 0.6rem;
+  color: #9ca3af;
+  font-size: 0.9rem;
+}
+
+/* ========== PANELS ========== */
+
+.panel {
+  border: 1px solid #1f2933;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background: #0f1318;
+}
+
+.panel h2 {
+  margin-bottom: 0.8rem;
+  color: #7dd3fc;
+}
+
+.panel h3 {
+  margin-bottom: 0.6rem;
+  color: #e5e7eb;
+}
+
+.highlight {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+/* ========== LISTS ========== */
+
+.spec,
+.questions {
+  margin-top: 0.8rem;
+  margin-left: 1.2rem;   /* pushes whole list inward */
+  padding-left: 1.2rem;  /* pushes bullets inward */
+  list-style: square;
+}
+
+.spec li,
+.questions li {
+  margin-bottom: 0.4rem;
+}
+
+.questions {
+  list-style: square;
+}
+.gethigh {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+
+/* ========== LINKS ========== */
+
+.links {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+/* ========== FOOTER ========== */
+
+footer {
+  border-top: 1px solid #1f2933;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
