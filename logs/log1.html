@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Baudm0n Labs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <a href="../index.html">
+      <span class="sigil">◉</span>
+      <span class="name">BAUDM0N</span>
+      </a>
+    </div>
+    <nav>
+      <a href="../phases/phase-one.html">Phase I</a>
+      <a href="dev.html">Logs</a>
+      <a href="../about.html">About Us</a>
+      
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <h1>Log One</h1>
+    </section>
+
+    <section id="mission" class="panel">
+      <h2>Bench Test Success</h2>
+      <p>
+        Successful unboxing and bench test. Checked circuit continuity, proper grounding, and fused power supply. Confirmed connection to controller via Tuner Studios.
+      </p>
+      <div class="log-gallery">
+        <figure class="log-shot">
+          <img src="assets/Unboxed.JPG" />
+          <figcaption> MS3 unboxing - verified harness, inspected pins, planned bench power. </figcaption>
+        </figure>
+        
+        <figure class="log-shot">      
+        <img src="assets/ECU-Front.PNG"/>
+        <figcaption>Mainboard connector, MS3X connector, MAP sensor</figcaption>
+      
+        </figure>
+        <figure class="log-shot">  
+        <img src="assets/ECU-Back.JPEG"/>
+        <figcaption> USB serial, RS232 serial, SDcard slot, 'Spare' DB15 connector
+        </figure>
+        
+        <figure class="log-shot"> 
+        <img src="assets/Continuity-PWR.PNG"/>
+        <figcaption> Verifying proper voltage from battery positive </figcaption>
+        </figure>
+        <figure class="log-shot"> 
+        <img src="assets/Continuity-GND.JPG"/>
+        <figcaption> Confirming ground continuity </figcaption>
+        </figure>
+        <figure class="log-shot"> 
+        <img src="assets/Connection.JPG"/>
+        <figcaption>Bench test wiring — fused main power, grounds consolidated, continuity checked.</figcaption>
+        </figure>
+        <figure class="log-shot"> 
+      <img src="assets/Success.JPG"/>
+      <figcaption>TunerStudio handshake confirmed — project created, controller detected. </figcaption>
+      </figure>
+      </div>
+      
+      
+    </section> 
+    
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Baudm0n Labs · Systems Archive</p>
+  </footer>
+   <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
